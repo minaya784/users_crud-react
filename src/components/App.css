@@ -1,0 +1,226 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #07BEB8;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+@media (min-width:320px){
+
+.App{
+  width: 100%;
+}
+.UserList{
+  width: 100%;
+ }
+
+  .Navbar__container{
+    width: 100%;
+    /* height: 250px; */
+    height: 150px;
+    background-color:#07BEB8;
+    color:rgb(61, 60, 60);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: solid 2px #B3C5D7;
+  }
+  h1{
+    width: 10%;
+    color:rgb(61, 60, 60);
+  
+  }
+  .Navbar__container button{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(1, 1, 12);
+    color:rgb(249, 243, 243);
+    border-radius: 8px;
+    box-shadow: 0 0 4px 4px rgb(24, 24, 24);
+  }
+  .Navbar__container button:hover{
+    cursor: pointer;
+  }
+  .card__container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    justify-content: space-evenly;
+    background-color: transparent;
+    padding: 2rem 0;
+  }
+  
+  .card{
+    width: 290px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 3px 3px;
+    border-radius: 7px;
+    margin-bottom: 40px;
+  }
+  .card h3{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px ;
+    border-bottom: 2px solid #B3C5D7;
+  }
+  .btn__container button {
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    justify-content: flex-end;
+   
+  }
+  .btn__container button i {
+    width: 30px;
+    height: 30px;
+    color: red;
+    background-color: #07BEB8;
+    font-size: 30px;
+    border-color: #07BEB8;
+  }
+  .btn__container .edit i{
+    color:black;
+    font-size: 30px;
+  }
+  
+  .alert__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(2, 2, 26, 0.607);
+  
+  }
+  .alert{
+   width: 350px;
+   height: 350px;
+   border-radius: 7px;
+   background-color: white;
+   opacity:0.9;
+   padding: 1.5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+  }
+  
+  .alert h3 {
+   margin-bottom: 10px;
+  }
+  .alert button{
+    width: 90px;
+    background-color: transparent;
+  }
+  .form__container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(2, 2, 26, 0.607);
+  }
+  .form{
+    
+    width: 300px;
+   height: 500px;
+    align-items: flex-start;
+   gap:5px;
+    border-radius: 7px;
+    background-color: white;
+    opacity:0.9;
+    padding: 1.5rem;
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:10px;
+    position: relative;
+  }
+  .form p {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: rgb(185, 35, 35);
+  }
+  .form__input{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    gap: 15px;
+  }
+  .form__text{
+    width: 150px;
+    display: flex;   
+  }
+  .container__text{
+    width:220px;
+  }
+  .input__container{
+    
+    display: flex;
+    flex-direction: column;
+  }
+  .form button {
+    width: 90px;
+    border-radius: 5px;
+    margin-top: 0.6rem;
+    background-color: #07BEB8;
+  } 
+}
+
+
+@media (min-width:768px){
+
+  .Navbar__container{
+    height: 250px;
+  }
+  .Navbar__container button{
+    width: 120px;
+  }
+
+.form{
+  width: 500px;
+  height: 500px;
+ align-items: center;
+ gap:5px;
+  
+  }
+.container__text{
+ width:250px;
+ 
+}
+
+.input__container{
+ display: flex;
+ 
+}
+
+}
+
+
+
+
+
+
+
